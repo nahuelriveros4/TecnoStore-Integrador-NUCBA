@@ -397,22 +397,22 @@ footer {
     background: var(--background);
     padding-bottom: 1rem;
   }
+}
 
-  @media (min-width: 889px) {
-    .product-card-contenedor {
-      flex-direction: row;
-    }
+@media (min-width: 889px) {
+  .product-card-contenedor {
+    flex-direction: row;
+  }
 
-    .contactos-links {
-      flex-direction: row;
-    }
+  .contactos-links {
+    flex-direction: row;
+  }
 
-    footer {
-      flex-direction: row;
-      gap: 30px;
-      text-align: center;
-      align-items: center;
-      justify-content: center;
-    }
+  footer {
+    flex-direction: row;
+    gap: 30px;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
   }
 }
