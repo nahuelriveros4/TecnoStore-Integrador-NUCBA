@@ -1,0 +1,139 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap");
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+  list-style-type: none;
+}
+:root {
+  --first-text: #000;
+  --boton: crimson;
+  --background: #181818;
+  --segundo-bg: #1e1e1e;
+  --white: #fff;
+  --light-text: #fff;
+
+  /*Fuentes*/
+  --font: "Poopins", sans-serif;
+  --light: 400;
+  --medium: 500;
+  --bold: 700;
+}
+
+body {
+  background-color: var(--background);
+  color: var(--light-text);
+  font-family: var(--font);
+  overflow-x: hidden;
+  width: 100%;
+}
+
+.header {
+  height: 80px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem;
+  width: 100%;
+  background: var(--background);
+}
+
+.logo {
+  width: 150px;
+}
+
+/* LOGIN */
+
+.login {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+  width: 100%;
+  margin-top: 5rem;
+}
+.card-login {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  height: 400px;
+  width: 300px;
+  background-color: var(--segundo-bg);
+  border-radius: 1rem;
+  border: 1px solid var(--white);
+}
+
+.login-form {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  text-align: center;
+  padding: 1rem;
+}
+
+.title h2 {
+  font-weight: var(--medium);
+  font-size: 2rem;
+}
+.login-form input {
+  border-radius: 1rem;
+  border: none;
+  padding: 10px;
+}
+
+.login-form a {
+  font-weight: var(--light);
+  font-size: 0.8rem;
+  transition: all 0.3s ease;
+  color: white;
+}
+
+.login-form a:hover {
+  color: crimson;
+}
+.login-form p {
+  font-weight: var(--light);
+  font-size: 0.8rem;
+}
+
+.registrar {
+  gap: 10px;
+  display: flex;
+  flex-direction: row;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+}
+.btn-login {
+  transition: all 0.3s ease;
+  background: crimson;
+  border-radius: 1rem;
+  border: none;
+  padding: 10px;
+}
+
+.btn-login:hover {
+  color: white;
+}
+
+.registrar a {
+  color: crimson;
+}
+
+.paginaprincipal a {
+  text-decoration: none;
+
+  color: crimson;
+  border-radius: 1rem;
+  font-weight: var(--lights);
+  font-size: 0.9rem;
+}
+
+@media (min-width: 769px) {
+  .login {
+    margin-top: 5rem;
+  }
+}
