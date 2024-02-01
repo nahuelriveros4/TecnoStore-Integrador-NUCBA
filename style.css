@@ -394,6 +394,8 @@ footer {
 
   #menu-oculto:checked ~ .navbar-list {
     transform: translateX(0);
+    background: var(--background);
+    padding-bottom: 1rem;
   }
 }
 
